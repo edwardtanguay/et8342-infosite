@@ -9,7 +9,7 @@ const title:string = "info site";
 const num:number = 34;
 
 // const title2 = title + num;
-const title2 = createTitle(title, num);
+const title2 = createTitle(title, String(num));
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <h1>${title}</h1>
